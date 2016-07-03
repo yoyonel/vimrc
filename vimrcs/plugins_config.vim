@@ -53,7 +53,7 @@ let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
 " => ZenCoding
 """"""""""""""""""""""""""""""
 " Enable all functions in all modes
-let g:user_zen_mode='a'
+let g:user_emmet_install_global = 1
 
 
 """"""""""""""""""""""""""""""
@@ -167,3 +167,15 @@ nnoremap <silent> <leader>l :call SyntasticCheckCoffeescript()<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim jsx
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:jsx_ext_required = 0
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => neovim python
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:python_host_prog = '/usr/bin/python'
+
