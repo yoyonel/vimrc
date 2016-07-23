@@ -22,3 +22,6 @@
 [submodule "sources_non_forked/vim-markdown"]
 	path = sources_non_forked/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown
+[submodule "sources_non_forked/vim-youdao-translater"]
+	path = sources_non_forked/vim-youdao-translater
+	url = https://github.com/ianva/vim-youdao-translater
