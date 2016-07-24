@@ -40,3 +40,6 @@
 [submodule "sources_non_forked/vim-jsdoc"]
 	path = sources_non_forked/vim-jsdoc
 	url = https://github.com/heavenshell/vim-jsdoc
+[submodule "sources_non_forked/vim-easymotion"]
+	path = sources_non_forked/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion
