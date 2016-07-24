@@ -28,3 +28,9 @@
 [submodule "sources_non_forked/vim-es6"]
 	path = sources_non_forked/vim-es6
 	url = https://github.com/isRuslan/vim-es6
+[submodule "sources_non_forked/vimshell"]
+	path = sources_non_forked/vimshell
+	url = https://github.com/Shougo/vimshell.vim
+[submodule "sources_non_forked/vimproc"]
+	path = sources_non_forked/vimproc
+	url = https://github.com/Shougo/vimproc.vim
