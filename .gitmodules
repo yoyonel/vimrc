@@ -34,3 +34,6 @@
 [submodule "sources_non_forked/vimproc"]
 	path = sources_non_forked/vimproc
 	url = https://github.com/Shougo/vimproc.vim
+[submodule "sources_non_forked/unite.vim"]
+	path = sources_non_forked/unite.vim
+	url = https://github.com/Shougo/unite.vim

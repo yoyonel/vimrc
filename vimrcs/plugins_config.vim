@@ -179,3 +179,23 @@ let g:jsx_ext_required = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:python_host_prog = '/usr/bin/python'
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vimshell
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:vimshell_user_prompt = 'fnamemodify(getcwd(), ":~")'
+let g:vimshell_prompt = "$ "
+
+autocmd FileType vimshell
+	\ call vimshell#altercmd#define('g', 'git')
+	\| call vimshell#altercmd#define('i', 'iexe')
+	\| call vimshell#altercmd#define('l', 'll')
+	\| call vimshell#altercmd#define('ll', 'ls -l')
+	\| call vimshell#hook#add('chpwd', 'my_chpwd', 'MyChpwd')
+
+function! MyChpwd(args, context)
+  call vimshell#execute('ls')
+endfunction
+
+autocmd FileType int-* call s:interactive_settings()
+function! s:interactive_settings()
+endfunction
