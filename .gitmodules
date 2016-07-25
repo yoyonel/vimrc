@@ -43,3 +43,9 @@
 [submodule "sources_non_forked/vim-easymotion"]
 	path = sources_non_forked/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
+[submodule "sources_non_forked/ultisnips"]
+	path = sources_non_forked/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "sources_non_forked/suppertab"]
+	path = sources_non_forked/suppertab
+	url = https://github.com/ervandew/supertab

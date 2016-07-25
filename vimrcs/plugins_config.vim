@@ -50,18 +50,22 @@ let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
 
 
 """"""""""""""""""""""""""""""
-" => ZenCoding
+" => emmet
 """"""""""""""""""""""""""""""
 " Enable all functions in all modes
 let g:user_emmet_install_global = 1
 
 
 """"""""""""""""""""""""""""""
-" => snipMate (beside <TAB> support <CTRL-j>)
+" => UltiSnipts c-j
 """"""""""""""""""""""""""""""
-ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
-snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
+let g:UltiSnipsSnippetsDir='~/.vim_runtime/sources_non_forked/vim-snippets'
+let g:UltiSnipsEditSplit='vertical'
+let g:UltiSnipsExpandTrigger           = '<c-j>'
+let g:UltiSnipsJumpForwardTrigger      = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
 
+nnoremap <leader>ue :UltiSnipsEdit<cr>
 
 """"""""""""""""""""""""""""""
 " => Vim grep
